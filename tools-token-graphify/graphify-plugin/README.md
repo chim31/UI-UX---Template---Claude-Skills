@@ -48,3 +48,4 @@ Then restart Claude Code. Verify with `/plugin` (should list **graphify**) and `
 ```
 
 Outputs land in `graphify-out/` (graph.json, graph.html, GRAPH_REPORT.md, Obsidian vault).
+

@@ -16,3 +16,4 @@ Examples:
 - `/graphify add https://example.com/paper.pdf`
 
 Do not answer from raw files before handing off to the `graphify` skill.
+
