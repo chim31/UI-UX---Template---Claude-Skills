@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -d graphify-out ] && command -v graphify >/dev/null 2>&1; then nohup graphify update . >> \"${HOME}/.cache/graphify-rebuild.log\" 2>&1 < /dev/null & disown 2>/dev/null || true; fi; exit 0",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

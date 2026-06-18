@@ -1,0 +1,19 @@
+{
+  "name": "graphify-marketplace",
+  "owner": {
+    "name": "Joachim Goeh Akue",
+    "email": "joachimgoehakue05@gmail.com"
+  },
+  "metadata": {
+    "description": "Local marketplace for the graphify Claude Code plugin.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "graphify",
+      "source": "./graphify-plugin",
+      "description": "Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph (community detection, EXTRACTED/INFERRED/AMBIGUOUS audit trail, interactive HTML + GraphRAG JSON + GRAPH_REPORT.md).",
+      "category": "code-analysis"
+    }
+  ]
+}
